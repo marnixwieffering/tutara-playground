@@ -1,0 +1,13 @@
+fun: Int fib(n: Int){
+    val r = 0
+
+    if (n == 0 || n == 1){
+        r = n
+    } else {
+        r = fib(n - 1) + fib(n -2)
+    }
+
+    return r
+}
+
+return fib(30)

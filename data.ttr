@@ -1,0 +1,5 @@
+val a = 22
+val b = 42
+val c = a + b
+
+return c

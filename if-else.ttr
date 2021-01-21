@@ -1,0 +1,10 @@
+val a = 5
+val b = 10
+
+if (b % 2 == 1){
+   a += 1
+}
+
+b = b + 1
+
+return b
